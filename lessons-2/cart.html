@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header-bg header-position">
+        <nav class="container container__logo">
+            <div>
+                <a class="header__logo-left" href="index.html"> <img src="img/logo.png" alt="#"></a>
+                <a class="header__logo-left" href="catalog.html"> <img src="img/search.png" alt="#"></a>
+            </div>
+            <div>
+                <a class="header__logo-right" href="product.html"> <img src="img/burger.png" alt=""></a>
+                <a class="header__logo-right header__logo-right-hidden" href="registration.html"> <img src="img/profile.png" alt="#"></a>
+                <a class="header__logo-right header__logo-right-hidden header__badge" href="cart.html">
+                    <span id="badgeCounter" class="header__badge-counter">5</span>
+                    <img src="img/basket.png" alt="#">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-title-bg">
+        <div class="container header-bottom-decor">
+            <div>
+                <p class="page-title text-decor">SHOPPING CART</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <main class="container container__main">
+
+        <article class="cart__product">
+
+            <div class="cart__product-cart">
+
+                <div><img class="cart__product-img" src="img/img_cart/imgcart1.png" alt="#"></div>
+                <div class="cart__product-cart-left">
+                    <div class="cart__product-cart-header">
+                        <div class="cart__product-cart-header-text">
+                                <h4>MANGO PEOPLE </h4>
+                                <h4>T-SHIRT</h4>
+                        </div>
+                        <div>
+                            <button class="cart__product-cart-header-button">
+                                <img src="img/img_cart/imgexit.png" alt="#">
+                            </button> 
+                        </div>
+                    </div>
+                    <div class="cart__product-cart-text">
+                        <p>Price: <span class="cart__product-price-color">$300</span></p>
+                        <p>Color: Red</p> 
+                        <p>Size: Xl</p>
+                        <p>Quantity: <input type="number" class="cart__product-input"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart__product-cart">
+
+                <div><img class="cart__product-img" src="img/img_cart/imgcart2.png" alt="#"></div>
+                <div class="cart__product-cart-left">
+                    <div class="cart__product-cart-header">
+                        <div class="cart__product-cart-header-text">
+                            <h4>MANGO PEOPLE </h4>
+                            <h4>T-SHIRT</h4>
+                        </div>
+                        <div>
+                            <button class="cart__product-cart-header-button">
+                                <img src="img/img_cart/imgexit.png" alt="#">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart__product-cart-text">
+                        <p>Price: <span class="cart__product-price-color">$300</span></p>
+                        <p>Color: Red</p> 
+                        <p>Size: Xl</p>
+                        <p>Quantity: <input type="number" class="cart__product-input"></p>
+                            
+                    </div>
+                 </div>
+            </div>
+                        
+            <div class="cart__button">
+                <button class="cart__product-button">
+                    <span>CLEAR SHOPPING CART</span>
+                </button>
+
+                <button class="cart__product-button">
+                    <span>CONTINUE SHOPPING</span>
+                </button>
+            </div>
+        </article>
+
+        <section class="main__part-right-wrap">
+            <article class="main__part-right">
+                <h3 class="main__part-right-header">SHIPPING ADRESS</h3>
+                        
+                <input placeholder="Bangladesh" type="text" class="main__part-right-input">
+            
+                        
+                <input placeholder="State" type="text" class="main__part-right-input">
+            
+                        
+                <input placeholder="Postcode / Zip" type="text" class="main__part-right-input">
+            
+                <button class="middle__part-right-submit">GET A QUOTE</button>
+            </article>
+
+            <article class="main__part-right-bg">
+                <div class="main__part-right-info">
+                    <div class="main__part-right-info-text-top">SUB TOTAL $900</div>
+                    <div class="main__part-right-info-text-middle">GRAND TOTAL <span class="cart__product-price-color">$900</span> </div>
+                </div>
+
+                <button class="main__part-right-button">
+                    <span>PROCEED TO CHECKOUT</span>
+                </button>
+                    
+            </article>
+        </section>
+    </main>
+    
+
+    <div class="feedback">
+        <div class="container feedback__card">
+            <div class="feedback__item">
+                <div class="feedback__image">
+                    <img src="img/feedback__women.png" alt="№">
+                </div>
+                <div class="feedback__info">
+                    <h4 class="feedback__header">
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“ 
+                    </h4>
+                </div>
+            </div>
+
+            <section class="feedback__item">
+                <h4 class="feedback__right-header">
+                    SUBSCRIBE FOR OUR NEWLETTER AND PROMOTION 
+                </h4>
+
+                <article class="feedback__button">
+                    <input type="text" class="feedback__button-text" placeholder="Enter Your Email">
+                    <button class="feedback__button-send bg-decor">Subscribe</button>
+                </article>
+
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer__logo">
+
+            <div class="footer__left__header">
+                <h3>© 2021 Brand All Rights Reserved.</h3>
+            </div>
+
+            <section class="footer__right">
+                <article class="footer__item">
+                    <a class="footer__logo__right" href="https://twitter.com/?lang=ru">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </article>
+                
+                <article class="footer__item">
+                    <a class="footer__logo__right" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </article>
+                
+                <article class="footer__item">
+                    <a class="footer__logo__right" href="https://www.pinterest.ru/">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                </article>
+
+                <article class="footer__item">
+                    <a class="footer__logo__right" href="https://twitter.com/?lang=ru">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </article>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
